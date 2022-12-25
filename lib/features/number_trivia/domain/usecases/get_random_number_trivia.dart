@@ -4,7 +4,7 @@ import 'package:flutter_clean_arc/core/usecases/usecase.dart';
 import 'package:flutter_clean_arc/features/number_trivia/domain/repositories/number_trivia_repository.dart';
 import 'package:flutter_clean_arc/features/number_trivia/domain/entities/number_trivia.dart';
 
-class GetRandomNumberTrivia extends Usercase<NumberTrivia, NoParams> {
+class GetRandomNumberTrivia extends Usercase<NoParams> {
   final NumberTriviaRepository repository;
 
   GetRandomNumberTrivia(this.repository);
